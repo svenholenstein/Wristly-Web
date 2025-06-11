@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<< Header Area >>-->
+
+<head>
+  <!-- ========== Meta Tags ========== -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Gramentheme" />
+  <meta name="description"
+    content="Wristly – The ultimate app for managing your digital watch collection. Track your timepieces, log daily wear, analyze statistics, and explore calendar-based insights for your watches." />
+  <!-- ======== Page title ============ -->
+  <title>Wristly - Versions and Features</title>
+  <!--<< Favicon >>-->
+  <link rel="shortcut icon" href="assets/images/favicon.png" />
+  <!--<< Bootstrap min.css >>-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!--<< All Min Css >>-->
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <!--<< Animate.css >>-->
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <!--<< Magnific Popup.css >>-->
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <!--<< MeanMenu.css >>-->
+  <link rel="stylesheet" href="assets/css/meanmenu.css" />
+  <!--<< Swiper Bundle.css >>-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <!--<< NiceSelect.css >>-->
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+  <!--<< Main.css >>-->
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <style>
+    .planned-features-title {
+      font-weight: bold;
+      margin-top: 10px;
+      color: #333;
+      font-size: 18px;
+    }
+
+    .li-features-text {
+      color: #333;
+      font-size: 16px;
+    }
+
+    .accordion {
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .accordion-item {
+      border-bottom: 1px solid #ccc;
+    }
+    
+    .accordion-header {
+      background-color: #f0f0f0;
+      color: #333;
+      cursor: pointer;
+      padding: 15px 20px;
+      width: 100%;
+      text-align: left;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      outline: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .accordion-header:hover {
+      background-color: #e0e0e0;
+    }
+
+    .accordion-body {
+      display: none;
+      padding: 15px 20px;
+      background-color: #fff;
+    }
+
+    .accordion-body.show {
+      display: block;
+    }
+
+
+
+    .status {
+      font-size: 0.9em;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-left: 10px;
+    }
+
+    .status.planned {
+      background-color: #ffcc00;
+      color: #fff;
+    }
+
+    .status.in-progress {
+      background-color: #00ccff;
+      color: #fff;
+    }
+
+    .status.testing {
+      background-color: #ff6600;
+      color: #fff;
+    }
+
+    .status.done {
+      background-color: #66cc66;
+      color: #fff;
+    }
+
+    .priority {
+      font-size: 0.9em;
+      color: #888;
+      margin-left: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Mouse Cursor Start -->
+  <div class="mouse-cursor cursor-outer"></div>
+  <div class="mouse-cursor cursor-inner"></div>
+
+  <!-- Back To Top Start -->
+  <button id="back-top" class="back-to-top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Offcanvas / Header Area Start -->
+  <!-- Offcanvas Area Start -->
+  <div class="fix-area">
+    <div class="offcanvas__info">
+      <div class="offcanvas__wrapper">
+        <div class="offcanvas__content">
+          <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+            <div class="offcanvas__logo">
+              <a href="https://wristly.app/">
+                <img src="assets/images/logo/logo2.svg" alt="myWatchMate Logo" />
+              </a>
+            </div>
+            <div class="offcanvas__close">
+              <button>
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+          <p class="text d-none d-xl-block">
+            Wristly is the ultimate digital watch collection manager. Organize
+            your timepieces, track your daily wear history, analyze
+            statistics, and explore detailed insights with our interactive
+            calendar and dashboard.
+          </p>
+          <div class="mobile-menu fix mb-3"></div>
+          <div class="offcanvas__contact">
+            <h4>Social Media</h4>
+
+            <div class="header-button mt-4"></div>
+            <div class="social-icon d-flex align-items-center">
+              <a href="https://www.instagram.com/wristly.app"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="offcanvas__overlay"></div>
+
+  <!-- Header Section Start -->
+  <header class="header-section-1">
+    <div id="header-sticky" class="header-1">
+      <div class="container">
+        <div class="mega-menu-wrapper">
+          <div class="header-main">
+            <div class="header-left">
+              <div class="logo">
+                <a href="https://wristly.app/" class="header-logo">
+                  <img src="assets/images/logo/logo.svg" alt="myWatchMate Logo" />
+                </a>
+              </div>
+            </div>
+            <div class="header-middle">
+              <div class="mean__menu-wrapper">
+                <div class="main-menu">
+                  <nav id="mobile-menu">
+                    <ul>
+                      <li>
+                        <a href="https://wristly.app/">Home</a>
+                      </li>
+                      <li>
+                        <a href="https://wristly.app/about">About</a>
+                      </li>
+                      <li>
+                        <a href="https://wristly.app/#features">Features</a>
+                      </li>
+                      <li>
+                        <a href="https://wristly.app/#faq">FAQ</a>
+                      </li>
+                      <li>
+                        <a href="https://wristly.app/#app">App</a>
+                      </li>
+                      <li>
+                        <a href="https://wristly.app/changelog">What's New & Coming</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="header-right d-flex justify-content-end align-items-center">
+              <div class="header-button ms-4">
+                <a href="https://wristly.app/#app" class="theme-btn">
+                  <span>
+                    Get Started
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="header__hamburger d-block d-xl-none my-auto">
+                <div class="sidebar__toggle">
+                  <i class="fas fa-bars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcumb Section S T A R T -->
+  <div class="breadcumb-section fix">
+    <div class="breadcumb-container-wrapper" data-bg-src="assets/images/bg/breadcumgBg.png">
+      <div class="container">
+        <div class="shape1">
+          <img src="assets/images/shape/breadCumbShape1_1.png" alt="shape" />
+        </div>
+        <div class="shape2">
+          <img src="assets/images/shape/breadCumbShape1_2.png" alt="shape" />
+        </div>
+        <div class="breadcumb-wrapper">
+          <div class="page-heading">
+            <h1>Versions, Updates & Planned Features</h1>
+            <div class="links">
+              <a href="https://wristly.app/">Home<span class="slash">/</span></a>
+              Versions
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- HAUPTTEIL Section    S T A R T -->
+  <section class="contact-section section-padding fix">
+    <div class="container">
+      <div class="contact-wrapper style1">
+
+
+
+
+        <h2>📦 Versions & Updates</h2>
+
+        <div class="accordion">
+
+
+          <div class="accordion-item">
+            <button class="accordion-header active">Version 1.0.23 – June 9, 2025</button>
+            <div class="accordion-body show">
+              <ul>
+                <li>Initial release of the app</li>
+                <li>All core features</li>
+                <li>Wristly Premium lifetime and yearly-subscription</li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+
+        <h2 style="margin-top: 40px;">🚀 Planned Features</h2>
+
+        <div class="feature-category">
+          <p class="planned-features-title">User Experience</p>
+          <ul>
+            <li class="li-features-text">Switch in design settings to hide title and infos on card with watch background image<span class="status in-progress">In Progress</span> </li>
+            <li class="li-features-text">Option for users to filter various entries themselves using different filters<span class="status in-progress">In Progress</span> </li>
+          </ul>
+        </div>
+
+        <div class="feature-category">
+          <p class="planned-features-title">Features and Functions</p>
+          <ul>
+            <li class="li-features-text">Push Notifications<span class="status planned">Planned</span></li>
+            <li class="li-features-text">More statistics cards <span class="status planned">Planned</span></li>
+          </ul>
+        </div>
+
+        <div class="feature-category">
+          <p class="planned-features-title">Bug and Fixes</p>
+          <ul>
+            <li class="li-features-text">No open bugs or fixes<span class="status done">Done</span></li>
+
+          </ul>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section    E N D E -->
+
+  <!-- Footer Section    S T A R T -->
+  <footer class="footer-section position-relative">
+    <div class="footer-widgets-wrapper style1 fix">
+      <div class="shape1">
+        <img src="assets/images/shape/footerShape1_1.png" alt="shape" />
+      </div>
+      <div class="shape2">
+        <img src="assets/images/shape/footerShape1_2.png" alt="shape" />
+      </div>
+      <div class="shape3">
+        <img src="assets/images/shape/footerShape1_3.png" alt="shape" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+            <div class="single-footer-widget">
+              <div class="widget-head">
+                <a href="https://wristly.app/">
+                  <img src="assets/images/logo/logo.svg" alt="logo-img" />
+                </a>
+              </div>
+              <div class="footer-content">
+                <p>
+                  Wristly is your ultimate digital watch collection manager.
+                  Track your watches, analyze wear trends, and gain insights
+                  into your collection—all in one place.
+                </p>
+                <div class="store-links">
+                  <div class="apple">
+                    <a href="https://apps.apple.com/us/app/wristly/id6742909054"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="19" height="17" viewBox="0 0 19 17" fill="none">
+                        <path
+                          d="M13.9741 0.148438C11.9982 0.148438 11.1631 1.09311 9.78702 1.09311C8.37612 1.09311 7.29994 0.155311 5.58766 0.155311C3.91164 0.155311 2.12437 1.1805 0.989386 2.92696C-0.604303 5.38978 -0.333787 10.0282 2.24738 13.9797C3.17066 15.3942 4.40366 16.9806 6.02087 16.9978H6.05028C7.45578 16.9978 7.87332 16.0757 9.8076 16.0649H9.837C11.7424 16.0649 12.1246 16.9924 13.5242 16.9924H13.5536C15.1709 16.9752 16.47 15.2175 17.3933 13.8083C18.0578 12.7949 18.3048 12.2863 18.8145 11.1398C15.0807 9.71985 14.4809 4.41664 18.1735 2.38344C17.0463 0.969377 15.4624 0.150401 13.9692 0.150401L13.9741 0.148438Z"
+                          fill="white" />
+                      </svg>
+                      App Store</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+            <div class="single-footer-widget">
+              <div class="widget-head">
+                <h3>Pages</h3>
+              </div>
+              <ul class="list-area">
+                <li>
+                  <a href="https://wristly.app/about"> About </a>
+                </li>
+                <li>
+                  <a href="https://wristly.app/changelog">What's New & Coming</a>
+                </li>
+                <li>
+                  <a href="https://wristly.app/privacy"> Data Privacy </a>
+                </li>
+                <li>
+                  <a href="https://wristly.app/terms"> Terms Of Use </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+            <div class="single-footer-widget"></div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="single-footer-widget">
+              <div class="contact-box">
+                <div class="subtitle">Contact</div>
+                <div class="widget-head">Would you like to reach us?</div>
+
+                <div class="info">
+                  <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
+                      <path
+                        d="M3.66671 4.16699H18.3334C19.3417 4.16699 20.1667 4.99199 20.1667 6.00033V17.0003C20.1667 18.0087 19.3417 18.8337 18.3334 18.8337H3.66671C2.65837 18.8337 1.83337 18.0087 1.83337 17.0003V6.00033C1.83337 4.99199 2.65837 4.16699 3.66671 4.16699Z"
+                        stroke="#5236FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M20.1667 6L11 12.4167L1.83337 6" stroke="#5236FF" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="link">
+                    <a href="mailto:info@skycin.ch">info@skycin.ch</a> <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom style1">
+      <div class="container">
+        <div class="footer-wrapper d-flex align-items-center justify-content-between">
+          <p class="wow fadeInLeft" data-wow-delay=".3s">
+            Copyright © WRISTLY All rights -
+            <a href="https://wristly.app/privacy"> Data Privacy </a>
+          </p>
+          <ul class="social-links" data-wow-delay=".5s">
+            <li>
+              <a href="https://www.instagram.com/wristly.app"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    const headers = document.querySelectorAll('.accordion-header');
+
+    headers.forEach(header => {
+      header.addEventListener('click', () => {
+        const currentlyActive = document.querySelector('.accordion-header.active');
+        if (currentlyActive && currentlyActive !== header) {
+          currentlyActive.classList.remove('active');
+          currentlyActive.nextElementSibling.classList.remove('show');
+        }
+
+        header.classList.toggle('active');
+        header.nextElementSibling.classList.toggle('show');
+      });
+    });
+  </script>
+
+
+  <!--<< All JS Plugins >>-->
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <!--<< Bootstrap Js >>-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!--<< Waypoints Js >>-->
+  <script src="assets/js/jquery.waypoints.js"></script>
+  <!--<< Counterup Js >>-->
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <!--<< Viewport Js >>-->
+  <script src="assets/js/viewport.jquery.js"></script>
+  <!--<< Tilt Js >>-->
+  <script src="assets/js/tilt.min.js"></script>
+  <!--<< Swiper Slider Js >>-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <!--<< MeanMenu Js >>-->
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <!--<< Magnific popup Js >>-->
+  <script src="assets/js/magnific-popup.min.js"></script>
+  <!--<< Wow Animation Js >>-->
+  <script src="assets/js/wow.min.js"></script>
+  <!--<< NIce Select Js >>-->
+  <script src="assets/js/nice-select.min.js"></script>
+  <!--<< Main.js >>-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
